@@ -133,6 +133,7 @@ footer {
 
     main {
         grid-area: main;
+        text-align: center;
     }
 
     aside {
@@ -147,6 +148,12 @@ footer {
         display: flex;
         flex-direction: column;
     }
+    .centrarTable{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
 
 
 }
