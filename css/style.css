@@ -53,7 +53,6 @@ body header nav ul li {
 
 body header nav ul button a {
     color: inherit;
-    /* This sets the link color to inherit from its parent element */
     text-decoration: none;
 }
 
@@ -64,9 +63,7 @@ main {
 
 
 
-main section article {
-    height: 5%;
-}
+
 
 
 
@@ -99,7 +96,7 @@ aside {
 
 aside h3 {
     margin: 0px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow:  0px 5px 15px rgba(0, 0, 0, 0.35);
 }
 
 
