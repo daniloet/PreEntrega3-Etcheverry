@@ -27,13 +27,8 @@ body {
 }
 
 /* HEADER */
-header {
-    background-color: black;
-    border: solid 2px black;
-    display: flex;
-    justify-content: space-between;
-    grid-area: header;
-    height: 100px;
+.bg-body-tertiary{
+    background-color: green;
 }
 
 
