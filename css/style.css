@@ -54,8 +54,14 @@ main {
     background-color: black;
 }
 
+main section fieldset legend {
+    padding: 10px;
+    margin: 10px;
+}
 
-
+.padding-main{
+    padding: 20px;
+}
 
 
 
@@ -148,7 +154,9 @@ footer {
         justify-content: center;
         align-items: center;
     }
-
+  .list-none{
+    list-style: none;
+  }
 
 
 }
