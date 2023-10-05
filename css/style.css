@@ -23,6 +23,7 @@ body {
 
 
 
+
 }
 
 /* HEADER */
@@ -51,7 +52,7 @@ body header nav ul button a {
 /*MAIN*/
 main {
     grid-area: main;
-    background-color: black;
+    
 }
 
 main section fieldset legend {
