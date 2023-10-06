@@ -56,7 +56,10 @@ main section fieldset legend {
 .padding-main{
     padding: 20px;
 }
-
+.carousel-item{
+    padding-top: 40px;
+    padding-left: 40px;
+}
 
 
 
