@@ -65,6 +65,7 @@ main section fieldset legend {
 
 main section article div {
     display: flex;
+    flex-direction: row;
 
 }
 
@@ -76,6 +77,14 @@ main section article div {
 
 .noticiaUno div {
     flex-direction: column;
+}
+.noticiaUno{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+p{
+    text-align: center !important;
 }
 
 
