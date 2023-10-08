@@ -1,9 +1,15 @@
 * {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Oswald', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+   
     color: lavender
 }
-h1{
+.fuenteOswald{
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
     font-family: bold;
 }
 
@@ -19,7 +25,8 @@ h1{
     ;
 
 }
-body{
+
+body {
     background-color: #1a3b04;
 }
 
@@ -56,21 +63,28 @@ main section fieldset legend {
     margin: 10px;
 }
 
-.padding-main{
+.padding-main {
     padding: 20px;
 }
-.carousel-item{
+
+.carousel-item {
     padding-top: 40px;
     padding-left: 40px;
 }
+.parrafoAIzquierda{
+    text-align: left;
+    padding: 15px;
+}
+
 iframe {
     height: 28rem;
     border: 0;
-  }
-  .agrandarIframe{
+}
+
+.agrandarIframe {
     height: 28rem;
-  }
-  
+}
+
 main section article div {
     display: flex;
     flex-direction: row;
@@ -86,13 +100,17 @@ main section article div {
 .noticiaUno div {
     flex-direction: column;
 }
-.noticiaUno{
+
+.noticiaUno {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-p{
-    text-align: center !important;
+
+p {
+    
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -108,7 +126,7 @@ aside {
     grid-area: aside;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     border: 3px solid lavender;
-   
+
 }
 
 aside h3 {
@@ -123,18 +141,24 @@ footer {
     grid-area: footer;
     background-color: black;
 }
+.fondoVerdeAgua{
+    background-color: rgb(65, 147, 65);
+    color: black;
+}
 
 
 .fondoVerde {
     background-color: green;
 }
-
+.centrarImg{
+    align-items: center;
+}
 
 @media screen and (max-width: 768px) {
     #grid {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        grid-template-rows: 0.5fr 5fr 1fr 1fr;
+        grid-template-rows: 0.2fr 3fr 1fr 1fr;
         grid-template-areas:
             "header header"
             "main main"
@@ -142,6 +166,7 @@ footer {
             "footer footer"
         ;
     }
+
 
     header {
         grid-area: header;
@@ -164,6 +189,7 @@ footer {
     .noticiaDos div {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .centrarTable {
@@ -171,9 +197,10 @@ footer {
         justify-content: center;
         align-items: center;
     }
-  .list-none{
-    list-style: none;
-  }
+
+    .list-none {
+        list-style: none;
+    }
 
 
 }
