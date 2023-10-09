@@ -32,26 +32,6 @@ body {
 
 /* HEADER */
 
-
-
-header nav ul {
-    display: flex;
-    justify-content: space-around;
-}
-
-
-body header nav ul li {
-
-
-    list-style: none;
-
-}
-
-body header nav ul button a {
-    color: inherit;
-    text-decoration: none;
-}
-
 /*MAIN*/
 main {
     grid-area: main;
