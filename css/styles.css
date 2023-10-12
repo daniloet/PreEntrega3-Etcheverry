@@ -65,6 +65,9 @@ body main section article div div iframe {
   height: 28rem;
   border: 0;
 }
+body main section article div div img {
+  padding: 2px;
+}
 body aside {
   padding: 10px;
   margin: 10px;
