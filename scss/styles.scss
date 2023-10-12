@@ -62,6 +62,9 @@ body {
     }
 
     main {
+        .card{
+            background-color: rgba(255, 255, 255, 0.15);
+        }
         grid-area: main;
         padding: 20px;
 
@@ -119,7 +122,20 @@ body {
     footer {
         grid-area: footer;
         background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
+        fieldset {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            a {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
     }
 
 }
@@ -161,10 +177,12 @@ body {
         text-align: center;
         padding-top: 35px !important;
     }
-    .padding-main{
+
+    .padding-main {
         padding-top: 45px !important;
     }
-    .padding-main2{
+
+    .padding-main2 {
         padding-top: 55px !important;
     }
 
