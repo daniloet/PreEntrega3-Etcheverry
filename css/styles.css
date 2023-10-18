@@ -111,8 +111,12 @@ body footer fieldset a {
   #grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 0.2fr 3fr 1fr 1fr;
+    grid-template-rows: 0.3fr 3fr 0.5fr 0.1fr;
     grid-template-areas: "header header" "main main" "aside aside" "footer footer";
+    align-items: stretch;
+  }
+  body, html {
+    height: 100%;
   }
   header {
     grid-area: header;
@@ -120,13 +124,25 @@ body footer fieldset a {
   main {
     grid-area: main;
     text-align: center;
-    padding-top: 35px !important;
+    padding-top: 130px !important;
+  }
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+  }
+  .carousel-image {
+    margin: 0 auto;
+  }
+  .carousel-item {
+    padding-top: 0px;
+    padding-left: 0px;
   }
   .padding-main {
-    padding-top: 45px !important;
+    padding-top: 130px !important;
   }
   .padding-main2 {
-    padding-top: 55px !important;
+    padding-top: 80px !important;
   }
   aside {
     grid-area: aside;
